@@ -23,7 +23,7 @@ Open up VS 2022 and click on "Clone a Repository"
 
 ![image](https://media.discordapp.net/attachments/1020110665161113610/1084641804537827418/image.png?width=1102&height=663)
 
-## Step 2 - Link
+## Step 4 - Link
 
 In the URL box, copy and paste the URL of your repository, it can be found by clicking on "Code", and then copying the link in the HTTPS section
 
@@ -31,7 +31,7 @@ You can alternatively sign-in to GitHub on VS 2022 and select your repository
 
 ![image](https://user-images.githubusercontent.com/98812930/224719890-d155eaa0-c8f8-4465-9acf-c96b798221e7.png)
 
-## Step 3 - Preparing the Project
+## Step 5 - Preparing the Project
 
 Once you have cloned the repository, it is not ready to start just yet. We have to do 2 things
 
@@ -86,7 +86,7 @@ When you make a commit and push it to the repository, doing this will prevent Di
 
 You should never commit your /bin/Debug folders when you push to the repository as they contain your actual application
 
-## Step 4 - Starting up the Bot
+## Final Step - Starting up the Bot
 
 Once you have Restored the Packages and setup the config.json file with your own Token & Prefix, you are 
 ready to go
