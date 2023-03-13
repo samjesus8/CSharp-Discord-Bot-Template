@@ -2,28 +2,43 @@
 
 This section will show you how to correctly use this Template Repository and get it setup and working
 
-## Setup - VS 2022 
+## Step 1 - Copying the Template
 
-We will be using Visual Studio 2022, as it is the most popularly used IDE
+This Repository is a template repository, so this allows you to copy over the existing files in this repository to your own
 
-### Step 1 - CLONE
+In the main Code section, you will see a button saying "Use this Template", click on this and then click "Create a new repository"
+
+![image](https://user-images.githubusercontent.com/98812930/224717857-749edc9e-57d7-49d3-bbc1-cacc5f963fe5.png)
+
+## Step 2 - Make your repository
+
+Assign youself as the owner of this repository and give it a Name & Description
+
+![image](https://user-images.githubusercontent.com/98812930/224718114-05016496-6dbb-48c7-8507-129f8390af18.png)
+
+
+## Step 3 - Clone your repo in VS 2022
 
 Open up VS 2022 and click on "Clone a Repository"
 
 ![image](https://media.discordapp.net/attachments/1020110665161113610/1084641804537827418/image.png?width=1102&height=663)
 
-### Step 2 - Link
+## Step 2 - Link
 
-In the URL box, copy and paste the URL of this repository, it can be found by clicking on "Code", and then copying the link in the HTTPS section
+In the URL box, copy and paste the URL of your repository, it can be found by clicking on "Code", and then copying the link in the HTTPS section
 
-![image](https://media.discordapp.net/attachments/1020110665161113610/1084641804760133652/image.png?width=966&height=534)
+You can alternatively sign-in to GitHub on VS 2022 and select your repository
 
-### Step 3 - Preparing the Project
+![image](https://user-images.githubusercontent.com/98812930/224719890-d155eaa0-c8f8-4465-9acf-c96b798221e7.png)
+
+## Step 3 - Preparing the Project
 
 Once you have cloned the repository, it is not ready to start just yet. We have to do 2 things
 
 1. Restore the NuGet Packages in this solution (DSharpPlus)
 2. Setting the Token/Prefix of the Bot
+
+### Restoring the NuGet Packages
 
 To restore the NuGet packages, we hava to simply Build the Solution
 
@@ -38,6 +53,8 @@ Once that is finished, it will generate a /bin folder for us in your solution fo
 
 In this folder, we must place in our config.json file which contains our Token & Prefix
 
+### The config.json file
+
 First start by setting the Token & Prefix of your bot in the config.json file like this and save the file
 
 You can get the token of your Bot using the Discord Developer Portal in the Bot section of your application
@@ -49,7 +66,7 @@ Then, open up your whole project in your File Manager by Right-Clicking on your 
 You will see a folder called "bin", open this folder and open the "Debug" folder. This is where you need to copy the config.json file to
 ![image](https://media.discordapp.net/attachments/1020110665161113610/1084644674825900052/image.png?width=977&height=625)
 
-### NOTE FOR GITHUB USERS
+### NOTE: WHEN PUSHING CHANGES TO YOUR REPO
 
 If you push this to your own repository, bear in mind, Discord will automatically detect that your Bot token has been published online and it will 
 reset your Token
@@ -69,7 +86,7 @@ When you make a commit and push it to the repository, doing this will prevent Di
 
 You should never commit your /bin/Debug folders when you push to the repository as they contain your actual application
 
-### Step 4 - Starting up the Bot
+## Step 4 - Starting up the Bot
 
 Once you have Restored the Packages and setup the config.json file with your own Token & Prefix, you are 
 ready to go
