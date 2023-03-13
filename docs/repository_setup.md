@@ -34,11 +34,13 @@ To do this, Click on the "Build" tab at the top, and then Build Solution
 You should see "1 Succeeded" in the output like this
 ![image](https://media.discordapp.net/attachments/1020110665161113610/1084643742306283560/image.png?width=1370&height=212)
 
-Once that is finished, it will generate a /bin folder for us, which will contain the application we are running when we hit start
+Once that is finished, it will generate a /bin folder for us in your solution folder, which will contain the application we are running when we hit start (YourSolution.exe)
 
 In this folder, we must place in our config.json file which contains our Token & Prefix
 
 First start by setting the Token & Prefix of your bot in the config.json file like this and save the file
+
+You can get the token of your Bot using the Discord Developer Portal in the Bot section of your application
 ![image](https://media.discordapp.net/attachments/1020110665161113610/1084644674330959993/image.png?width=1431&height=263)
 
 Then, open up your whole project in your File Manager by Right-Clicking on your project name and clicking "Open Folder in File Explorer"
@@ -62,6 +64,7 @@ This should contain your actual token
 
 ### config.json in Solution
 ![image](https://media.discordapp.net/attachments/1020110665161113610/1084646160674861136/image.png?width=392&height=147)
+
 When you make a commit and push it to the repository, doing this will prevent Discord from auto-resetting your token again
 
 You should never commit your /bin/Debug folders when you push to the repository as they contain your actual application
@@ -74,3 +77,11 @@ ready to go
 Start the application up and you should have a nice console window with your Bot
 
 ![image](https://media.discordapp.net/attachments/1020110665161113610/1084647592358584401/image.png?width=1311&height=663)
+
+# For more help
+
+If you need extra help with this Bot then here are some recommended support links
+
+- Join the Discord Server | [samjesus8 Official Server](https://discord.com/invite/GrcaGNSfCR)
+- Join the Official DSharpPlus Server | [DSharpPlus Official Server](https://discord.com/invite/dsharpplus)
+- Submit an Issue | [Issues Section](https://github.com/samjesus8/CSharp-Discord-Bot-Template/issues)
