@@ -1,4 +1,5 @@
-﻿using DiscordBotTemplate.Config;
+﻿using DiscordBotTemplate.Commands;
+using DiscordBotTemplate.Config;
 using DSharpPlus;
 using DSharpPlus.CommandsNext;
 using DSharpPlus.Interactivity;
@@ -52,7 +53,13 @@ namespace DiscordBotTemplate
                 EnableDefaultHelp = false,
             };
 
-            //7. Connect to get the Bot online
+            Commands = Client.UseCommandsNext(commandsConfig);
+
+            //7. Register your commands
+
+            Commands.RegisterCommands<Basic>();
+
+            //8. Connect to get the Bot online
             await Client.ConnectAsync();
             await Task.Delay(-1);
         }

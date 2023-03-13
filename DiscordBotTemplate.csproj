@@ -152,6 +152,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bot.cs" />
+    <Compile Include="Commands\Basic.cs" />
     <Compile Include="Config\ConfigJSON.cs" />
     <Compile Include="Config\JSONReader.cs" />
     <Compile Include="Program.cs" />
@@ -160,6 +161,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Config\config.json" />
+    <None Include="docs\repository_setup.md" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
