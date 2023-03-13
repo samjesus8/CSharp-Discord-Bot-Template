@@ -10,7 +10,9 @@ he will teach you all the fundamentals about making a 100% functioning, efficien
 
 Watch the Series here | [C# Discord Bot Tutorial](https://www.youtube.com/playlist?list=PLcpUxmcrEm_Bn4K-kcE9ebsQPvNcR8KZx)
 
-## Note to Beginners
+![image](https://media.discordapp.net/attachments/1020110665161113610/1084836667225030757/image.png?width=480&height=490)
+
+# Note to Beginners
 
 The whole reason for this repository is just to give beginners a working foundation that they can start working on.
 This will not contain everything, as everything you need to start up the bot, and make basic commands has been put in for you, as it is the user's responsibility to learn everything they need to know about DSharpPlus.
