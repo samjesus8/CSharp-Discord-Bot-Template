@@ -151,7 +151,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bot.cs" />
     <Compile Include="Commands\Basic.cs" />
     <Compile Include="Config\ConfigJSON.cs" />
     <Compile Include="Config\JSONReader.cs" />

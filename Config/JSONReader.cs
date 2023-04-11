@@ -10,11 +10,6 @@ namespace DiscordBotTemplate.Config
         public string token { get; set; }
         public string prefix { get; set; }
 
-        public JSONReader() 
-        {
-            
-        }
-
         public async Task ReadJSON() 
         {
             // PLEASE NOTE that you have to copy your "config.json" file (with your token & prefix) over to
