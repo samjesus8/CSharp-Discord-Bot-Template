@@ -40,16 +40,18 @@ Once you have cloned the repository, it is not ready to start just yet. We have 
 
 ### Restoring the NuGet Packages
 
-To restore the NuGet packages, we hava to simply Build the Solution
+To restore the NuGet packages, we have to simply "Build" the Solution
 
-To do this, Click on the "Build" tab at the top, and then Build Solution
+To do this, Click on the "Build" tab at the top, and then "Build Solution"
 
 ![image](https://media.discordapp.net/attachments/1020110665161113610/1084643410834640916/image.png?width=568&height=402)
 
 You should see "1 Succeeded" in the output like this
 ![image](https://media.discordapp.net/attachments/1020110665161113610/1084643742306283560/image.png?width=1370&height=212)
 
-Once that is finished, it will generate a /bin folder for us in your solution folder, which will contain the application we are running when we hit start (YourSolution.exe)
+Once that is finished, it will generate a /bin folder for us in your solution folder, which will contain the application we are running when we hit "Start" (YourSolution.exe).
+
+This .exe file is your actual console application
 
 In this folder, we must place in our config.json file which contains our Token & Prefix
 

@@ -2,6 +2,7 @@
 using DiscordBotTemplate.Config;
 using DSharpPlus;
 using DSharpPlus.CommandsNext;
+using DSharpPlus.EventArgs;
 using DSharpPlus.Interactivity;
 using DSharpPlus.Interactivity.Extensions;
 using System;
@@ -61,7 +62,7 @@ namespace DiscordBotTemplate
             await Task.Delay(-1);
         }
 
-        private static Task OnClientReady(DiscordClient sender, DSharpPlus.EventArgs.ReadyEventArgs e)
+        private static Task OnClientReady(DiscordClient sender, ReadyEventArgs e)
         {
             return Task.CompletedTask;
         }
