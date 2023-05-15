@@ -13,7 +13,6 @@ namespace DiscordBotTemplate
     public sealed class Program
     {
         public static DiscordClient Client { get; private set; }
-        public static InteractivityExtension Interactivity { get; private set; }
         public static CommandsNextExtension Commands { get; private set; }
         static async Task Main(string[] args)
         {
