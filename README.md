@@ -1,7 +1,7 @@
 # C# Discord Bot Template
 
 <p align="center">
-    <img src="https://media.discordapp.net/attachments/1020110665161113610/1084826383907291167/READMETHUMB.jpg?width=1310&height=360" style="border:5px solid blue" />
+    <img src="https://imgur.com/orKLJEx.png" />
 </p>
 
 # :wave: Welcome
@@ -13,7 +13,7 @@ in C#, with many of the different features it can offer. Please watch this tutor
 - Watch the Series here -> [C# Discord Bot Tutorial](https://www.youtube.com/playlist?list=PLcpUxmcrEm_Bn4K-kcE9ebsQPvNcR8KZx)
 
 <p align="center">
-    <img src="https://media.discordapp.net/attachments/1020110665161113610/1142802011885150228/image.png" style="border:5px solid black" />
+    <img src="https://imgur.com/OmdLEsh.png" style="border:5px solid black" />
 </p>
 
 # :speaking_head: Beginner's Advice from the Author
